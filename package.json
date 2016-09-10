@@ -1,0 +1,19 @@
+{
+  "name": "greedy-diet",
+  "version": "1.0.0",
+  "description": "Diet calculator",
+  "main": "server.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniogiordano/greedy-diet.git"
+  },
+  "author": "Antonio Giordano <antonio.giordano@getapper.com> (http://www.getapper.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoniogiordano/greedy-diet/issues"
+  },
+  "homepage": "https://github.com/antoniogiordano/greedy-diet#readme"
+}

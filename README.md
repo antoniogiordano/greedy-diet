@@ -1,1 +1,3 @@
 # greedy-diet
+
+Diet calculator
