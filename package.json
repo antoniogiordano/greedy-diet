@@ -15,5 +15,32 @@
   "bugs": {
     "url": "https://github.com/antoniogiordano/greedy-diet/issues"
   },
-  "homepage": "https://github.com/antoniogiordano/greedy-diet#readme"
+  "homepage": "https://github.com/antoniogiordano/greedy-diet#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "boom": "^4.0.0",
+    "ejs": "^2.5.2",
+    "hapi": "^15.0.3",
+    "inert": "^4.0.2",
+    "joy": "^0.1.1",
+    "minimist": "^1.2.0",
+    "moment": "^2.14.1",
+    "mongodb": "^2.2.9",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
 }
