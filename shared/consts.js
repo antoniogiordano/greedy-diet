@@ -2,13 +2,13 @@
  * Created by enrico on 04/03/16.
  */
 
-const SOSTANZE = {
-  PROTEINE: 'proteine',
-  GRASSI: 'grassi',
-  CARBOIDRATI: 'carboidrati',
-  FIBRE: 'fibre',
-  CALORIE: 'calorie'
-}
+const SOSTANZE = [
+  'proteine',
+  'grassi',
+  'carboidrati',
+  'fibre',
+  'calorie'
+]
 
 module.exports = {
   SOSTANZE: SOSTANZE

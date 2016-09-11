@@ -1,0 +1,11 @@
+@import "../../global.scss";
+
+.row {
+  @include display-flex();
+  justify-content: space-between;
+  width: 100%;
+  .elem {
+    padding: 10px;
+    width: 20%;
+  }
+}

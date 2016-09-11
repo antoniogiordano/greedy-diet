@@ -10,6 +10,9 @@ module.exports = {
   entry: {
     common: ['react', 'react-dom'],
     'home': './app/Misc/home/injector.jsx',
+    'ingredienti.list': './app/Ingrediente/list/injector.jsx',
+    'porzioni.list': './app/Porzione/list/injector.jsx',
+    'schede.generate': './app/Scheda/generate/injector.jsx',
   },
   output: {
     path: path.join(__dirname, 'public', 'js', 'bundles'),
@@ -19,7 +22,7 @@ module.exports = {
     loaders: [
       {
         loader: 'babel-loader',
-        include: [path.join(__dirname, 'app'), path.join(__dirname, 'views')],
+        include: [path.join(__dirname, 'app'), path.join(__dirname, 'src')],
         query: {
           presets: ['es2015', 'react']
         }

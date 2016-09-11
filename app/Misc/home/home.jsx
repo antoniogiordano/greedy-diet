@@ -16,7 +16,12 @@ const Home = React.createClass({
   },
   render () {
     return (
-      <div></div>
+      <div>
+        <ul>
+          <li><a href='/ingredienti'>INGREDIENTI</a></li>
+          <li><a href='/porzioni'>PORZIONI</a></li>
+        </ul>
+      </div>
     )
   }
 })
